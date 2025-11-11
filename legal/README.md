@@ -37,14 +37,6 @@ Based on the lawyer's assessment, MOBI's legal status is:
 - Control pricing or driver-client relationships
 - Position as a ride-hailing platform
 
-## 🔒 Compliance Requirements by City
-
-| City | Municipal Tax | Registration | Security Requirements | Status |
-|------|---------------|--------------|----------------------|--------|
-| Rio de Janeiro | 0% | None | None | Regulatory vacuum |
-| Niterói | 3% | SMU credenciamento | Standard | Active regulations |
-| Brasília | 1% | SEMOB credenciamento | SOS button + photo verification | Strict regulations |
-| São Paulo | 0% | CSVAPP registration | Conduapp course only | Complex regulations |
 
 ## 📋 Critical Next Steps
 
