@@ -1,47 +1,104 @@
-# MOBI
+# MOBI: Compliance Platform for Independent Drivers
 
-A technology platform (SaaS) designed for independent drivers and private transport operators in Brazil's mobility sector.
+## 📋 About MOBI
 
-## What MOBI Is
+MOBI is a compliance technology platform designed to help independent Brazilian drivers operate legally by automating the generation and registration of **Ordem de Serviço (OS)** documents for every trip. 
 
-MOBI was born from lived experience. Marconi, a professional driver and MOBI's CEO, faced firsthand the contradictions of Brazil's mobility sector: abusive platform fees, lack of client control, professional devaluation, and the legal risk of working "off-app" with private clients.
+**Important**: MOBI is NOT a ride-hailing marketplace. We do not:
+- Connect passengers with drivers
+- Charge per-trip fees
+- Control pricing or manage bookings
 
-"I lived the reality of a driver who wants to work well, with ethics, but gets pushed into informality. MOBI exists to give drivers the right to work within the law." — Marconi, CEO
+Instead, MOBI provides:
+- Digital OS generation and registration
+- Legal protection and traceability
+- Compliance infrastructure for independent operators
 
-MOBI is a technology platform designed to bridge the gap between informality and legality, enabling drivers to operate professionally with proper documentation and security.
-
-## What MOBI Does
-
-- **Digitally issues and registers Ordem de Serviço (OS)** for every trip
-- **Does NOT connect passengers to drivers** (no marketplace)
-- **Does NOT charge per-trip fees** (subscription-based)
-- **Acts as a technological and documentation tool, not an intermediary**
-- **Guarantees legality, traceability, and legal protection**
-
-## What MOBI Transforms
-
-"Off-platform" transport → Legal, documented, professional service
-
-## Core Principle
-
-MOBI does not mediate, contract, or manage trips. It documents and legitimizes operations that drivers already perform with their own clients.
-
-## Repository Structure
+## 🏗️ Repository Structure
 
 ```
-docs/                       # Documentation
-├── city-configs/          # City-specific configurations
-├── regulations/           # Regulatory information
-├── supplementary-docs/    # Additional documentation
-└── v2/                    # Version 2 documentation
-
-master/                    # Core project content
-├── Introduction.md        # Project introduction
-└── Introduction2.md       # Additional introduction material
+.
+├── README.md                     # This file
+├── .gitignore                   # Git exclusions
+├── summary.md                   # Multi-city compliance strategy
+├── legal/                       # Legal and regulatory documents
+│   ├── README.md                # Legal documentation guide
+│   ├── regulations/            # Lawyer assessment (PDFs)
+│   ├── city-configs/           # City-specific compliance configurations
+│   └── MOBI Legal Context Briefing for Regulatory Assessment - v1.md
+├── specs/                       # Product specifications
+│   ├── research/               # User and market research
+│   └── master/                 # Technical specifications
+├── technical/                   # Implementation details
+│   └── MOBI - PLANO DE IMPLEMENTAÇÃO TÉCNICA.md
+├── architecture/                # Architecture decisions and patterns (to be added)
+└── .crush/                      # Development environment configuration
 ```
 
-## Getting Started
+## 📄 Key Documents
 
-1. Review the project documentation in the `docs/` directory
-2. Check the MVP timeline in `TRUE-MVP-TIMELINE.md`
-3. Review legal contexts in `MOBI Legal Context Briefing for Regulatory Assessment - v1.md`
+### Legal Documents
+1. **`legal/MOBI Legal Context Briefing for Regulatory Assessment - v1.md`** - Project overview and legal questions
+2. **`legal/regulations/`** - Lawyer assessment of project viability (PDFs)
+3. **`legal/city-configs/`** - Municipal requirements for each target city
+
+### Technical Documents
+1. **`technical/MOBI - PLANO DE IMPLEMENTAÇÃO TÉCNICA.md`** - Technical implementation plan
+2. **`architecture/`** - Architecture decisions (to be added)
+
+### Specifications
+1. **`specs/research/`** - User and market research
+2. **`specs/master/`** - Product specifications
+3. **`summary.md`** - Multi-city compliance strategy
+
+## 🚀 Target Cities
+
+MOBI will roll out in phases across major Brazilian cities:
+1. **Niterói** - Phase 1
+2. **Belo Horizonte** - Phase 2
+3. **Brasília** - Phase 3
+
+## 🔧 Core Functionality
+
+### MVP Features
+- Automated OS generation
+- Driver app for documentation
+- Consumer app for direct bookings (no discovery)
+- City-specific compliance enforcement
+- Subscription-based pricing (no per-trip fees)
+
+### Future Vision
+- Real-time GPS tracking
+- Professional driver verification (Selo MOBI)
+- Strategic partnerships
+- Fleet support
+
+## 📞 Business Model
+
+MOBI follows a SaaS model:
+- Monthly subscription for drivers
+- NO per-trip fees
+- Driver controls pricing and client relationships
+- MOBI provides compliance infrastructure only
+
+## 🚨 Legal Status
+
+Based on legal assessment, MOBI operates as:
+- **Not a transport intermediary** - We don't connect passengers to drivers
+- **Technology infrastructure** - We provide tools for compliance
+- **Data processor** - Process driver data for OS generation
+- **Invite-code system** - Closed driver-passenger relationships
+
+## 🗺️ Development Roadmap
+
+See `summary.md` for the complete multi-city compliance strategy and implementation roadmap.
+
+## 🔒 Legal Framework
+
+Based on the lawyer assessment, specific compliance requirements for each target city are detailed in the legal documentation. See `legal/regulations/` for the complete lawyer assessment that guides our implementation strategy.
+
+---
+
+**Prepared by**: MOBI Team  
+**Last Updated**: November 2025  
+**Version**: 1.0
